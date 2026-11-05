@@ -1,0 +1,5 @@
+Colocá aquí los logotipos de los colaboradores.
+Ejemplo: mi-negocio.png, otra-marca.svg.
+Después editá la lista COLABORADORES en config.js.
+Para el crédito del diseñador, agregá tu logo como creatiguate.png.
+El texto CREATIGUATE se ve automáticamente hasta que agregués ese logo.

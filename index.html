@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es-GT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#103f36">
+  <meta name="description" content="EmprendeFest 2026, el primer desfile navideño de emprendedores de Coatepeque. Sábado 21 de noviembre. Conocé el recorrido, los requisitos y cómo participar.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="EmprendeFest 2026 | Los sueños se hacen realidad">
+  <meta property="og:description" content="¡Coatepeque se llena de magia! Participá en el primer desfile navideño de emprendedores este 21 de noviembre.">
+  <title>EmprendeFest 2026 · Los sueños se hacen realidad</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <script defer src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script defer src="config.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a href="#contenido" class="skip-link">Saltar al contenido</a>
+  <div class="announcement" aria-label="Anuncio del evento">
+    <div class="shell announcement-inner">
+      <span class="announcement-star" aria-hidden="true">✦</span>
+      <span>¡La magia de la Navidad llega a Coatepeque!</span>
+      <span class="announcement-divider" aria-hidden="true"></span>
+      <strong>21 NOV · 2026</strong>
+      <span class="announcement-star" aria-hidden="true">✦</span>
+    </div>
+  </div>
+
+  <header class="site-header" id="inicio">
+    <nav class="shell nav-wrap" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="EmprendeFest 2026, inicio">
+        <span class="brand-symbol" aria-hidden="true"><i class="bi bi-stars"></i></span>
+        <span class="brand-type">Emprende<span>Fest</span><small>COATEPEQUE · 2026</small></span>
+      </a>
+      <div class="nav-links" id="menu-principal">
+        <a href="#evento">El evento</a>
+        <a href="#desfile">El desfile</a>
+        <a href="#participa">Cómo participar</a>
+        <a href="#colaboradores">Colaboradores</a>
+      </div>
+      <a class="btn-festive btn-festive-small d-none d-md-inline-flex" href="#inscripcion">¡Quiero participar! <i class="bi bi-arrow-up-right" aria-hidden="true"></i></a>
+      <button class="mobile-menu-button d-md-none" id="mobileMenuBtn" aria-label="Abrir menú" aria-expanded="false" aria-controls="menu-principal" type="button"><i class="bi bi-list" aria-hidden="true"></i></button>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="snow-layer" id="snowLayer" aria-hidden="true"></div>
+      <div class="shell hero-grid">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><i class="bi bi-snow2" aria-hidden="true"></i> PRIMER DESFILE NAVIDEÑO DE EMPRENDEDORES</div>
+          <h1 id="heroTitle">¡Esta Navidad <span>los sueños</span> salen a desfilar!</h1>
+          <p class="hero-tagline">EmprendeFest <strong>2026</strong></p>
+          <p class="hero-description">Una noche para celebrar el talento, las ideas y a quienes hacen crecer nuestra ciudad. <strong>¡Coatepeque, este desfile es para vos!</strong></p>
+          <div class="hero-actions">
+            <a href="#inscripcion" class="btn-festive btn-festive-lg">Unirme al desfile <i class="bi bi-arrow-right" aria-hidden="true"></i></a>
+            <a href="#evento" class="btn-outline-light-festive">Conocer el evento <i class="bi bi-chevron-down" aria-hidden="true"></i></a>
+          </div>
+          <div class="hero-footnote"><i class="bi bi-calendar-event" aria-hidden="true"></i><span>Sábado 21 de noviembre · Salida 6:30 p. m.</span></div>
+        </div>
+        <div class="hero-art reveal" aria-label="Ilustraciones navideñas de Papá Noel y un árbol decorado">
+          <div class="hero-art-header"><span class="badge-edition">EDICIÓN <b>01</b></span><span class="sparkle-text">Los sueños se hacen realidad ✦</span></div>
+          <div class="hero-figures">
+            <figure class="hero-tree"><img src="assets/ilustraciones/arbol.png" alt="Árbol de Navidad iluminado y rodeado de regalos" width="610" height="998" fetchpriority="high"></figure>
+            <figure class="hero-santa"><img src="assets/ilustraciones/santa.png" alt="Papá Noel saludando alegremente" width="778" height="959" fetchpriority="high"></figure>
+          </div>
+          <div class="hero-art-footer"><span>Coatepeque, Guatemala</span><span class="hero-art-dots" aria-hidden="true">✦ ✴ ✦</span></div>
+        </div>
+      </div>
+      <div class="hero-bottom-ribbon" aria-hidden="true"><span>CELEBRAMOS LO NUESTRO</span><span>✳</span><span>SOÑAMOS EN GRANDE</span><span>✳</span><span>COMPARTIMOS LA MAGIA</span></div>
+    </section>
+
+    <section class="event section-space" id="evento" aria-labelledby="eventTitle">
+      <div class="shell">
+        <div class="section-heading reveal centered"><span class="kicker">AGENDÁ ESTA FECHA</span><h2 id="eventTitle">Una noche <em>para recordar.</em></h2><p>El primer gran desfile donde las ideas de Coatepeque brillarán entre luces, alegría y espíritu navideño.</p></div>
+        <div class="facts-grid">
+          <article class="fact-card fact-main reveal"><div class="fact-icon"><i class="bi bi-calendar-heart" aria-hidden="true"></i></div><span class="fact-label">LA GRAN FECHA</span><strong>21</strong><div class="fact-main-bottom"><span>NOVIEMBRE</span><span>2026</span></div><p>Sábado</p></article>
+          <article class="fact-card reveal"><div class="fact-icon"><i class="bi bi-people" aria-hidden="true"></i></div><span class="fact-label">PUNTO DE REUNIÓN</span><strong>4:30 <small>p. m.</small></strong><p>Calle de los Doctores</p><span class="fact-detail">Llegá con tiempo para ubicar tu carroza.</span></article>
+          <article class="fact-card reveal"><div class="fact-icon"><i class="bi bi-truck-front" aria-hidden="true"></i></div><span class="fact-label">HORA DE SALIDA</span><strong>6:30 <small>p. m.</small></strong><p>Calle de los Doctores</p><span class="fact-detail">¡Arranca el desfile navideño!</span></article>
+          <article class="fact-card reveal"><div class="fact-icon"><i class="bi bi-geo-alt" aria-hidden="true"></i></div><span class="fact-label">GRAN FINAL</span><strong class="fact-final">Centro Comercial Internacional</strong><p>Coatepeque</p><span class="fact-detail">Luces pirotécnicas y show artístico.</span></article>
+        </div>
+        <div class="countdown-panel reveal" aria-label="Cuenta regresiva para el desfile"><div><span class="countdown-label"><i class="bi bi-hourglass-split" aria-hidden="true"></i> FALTA CADA VEZ MENOS</span><h3 id="countdownHeading">La magia está por comenzar</h3></div><div class="countdown-boxes" id="countdown" aria-live="off"><div><strong id="days">--</strong><small>DÍAS</small></div><span>:</span><div><strong id="hours">--</strong><small>HORAS</small></div><span>:</span><div><strong id="minutes">--</strong><small>MIN</small></div><span>:</span><div><strong id="seconds">--</strong><small>SEG</small></div></div></div>
+      </div>
+    </section>
+
+    <section class="train-section section-space" id="desfile" aria-labelledby="trainTitle">
+      <div class="shell">
+        <div class="train-header reveal"><div class="section-heading"><span class="kicker kicker-on-dark">UN DESFILE LLENO DE COLOR</span><h2 id="trainTitle">¡El espíritu navideño <em>ya viene en camino!</em></h2><p>Deslizá para conocer a todos los pasajeros de este desfile de sueños.</p></div><div class="train-controls"><button class="train-arrow" type="button" id="trainPrev" aria-label="Ver parte anterior del tren"><i class="bi bi-arrow-left" aria-hidden="true"></i></button><button class="train-arrow" type="button" id="trainNext" aria-label="Ver siguiente parte del tren"><i class="bi bi-arrow-right" aria-hidden="true"></i></button></div></div>
+      </div>
+      <div class="train-viewport" id="trainViewport" tabindex="0" aria-label="Tren navideño de cuatro ilustraciones. Deslizá horizontalmente para recorrerlo">
+        <div class="train-track">
+          <figure class="train-item"><img src="assets/ilustraciones/tren-01.png" alt="Primera parte del tren: locomotora y carrozas navideñas" width="988" height="296" loading="lazy"><figcaption>01 · La aventura comienza</figcaption></figure>
+          <figure class="train-item"><img src="assets/ilustraciones/tren-02.png" alt="Segunda parte del tren con árboles, regalos y personajes" width="1000" height="317" loading="lazy"><figcaption>02 · La alegría nos une</figcaption></figure>
+          <figure class="train-item"><img src="assets/ilustraciones/tren-03.png" alt="Tercera parte del tren con Santa, renos y regalos" width="1000" height="285" loading="lazy"><figcaption>03 · Compartimos la magia</figcaption></figure>
+          <figure class="train-item"><img src="assets/ilustraciones/tren-04.png" alt="Cuarta parte del tren con carrozas festivas y regalos" width="972" height="326" loading="lazy"><figcaption>04 · ¡Los sueños se hacen realidad!</figcaption></figure>
+        </div>
+      </div>
+      <div class="shell train-bottom"><div class="train-progress" role="progressbar" id="trainProgress" aria-label="Progreso del recorrido del tren" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span></span></div><p><i class="bi bi-hand-index-thumb" aria-hidden="true"></i> En celular, deslizá con tu dedo para ver el tren completo.</p></div>
+    </section>
+
+    <section class="purpose section-space" aria-labelledby="purposeTitle"><div class="shell purpose-grid"><div class="purpose-art reveal"><span class="sticker sticker-love">HECHO CON <i class="bi bi-heart-fill" aria-hidden="true"></i> EN COATEPEQUE</span><div class="purpose-circle"><img src="assets/ilustraciones/reno.png" width="597" height="969" alt="Reno navideño sonriente, con nariz roja" loading="lazy"></div><span class="purpose-art-bottom">El talento local merece brillar ✦</span></div><div class="purpose-copy reveal"><span class="kicker">EL CORAZÓN DE EMPRENDEFEST</span><h2 id="purposeTitle">Cuando emprender también significa <em>compartir.</em></h2><p>EmprendeFest nace para impulsar el talento, la creatividad y el espíritu emprendedor de nuestra ciudad. Queremos que cada marca tenga la oportunidad de darse a conocer y que Coatepeque disfrute de una celebración inolvidable.</p><p>Y esta Navidad la alegría llega más lejos: nos unimos para recolectar víveres destinados a apoyar a familias que lo necesitan.</p><div class="purpose-quote"><i class="bi bi-quote" aria-hidden="true"></i><span>Porque cuando el comercio local se une, Coatepeque crece.</span></div></div></div></section>
+
+    <section class="participate section-space" id="participa" aria-labelledby="participateTitle"><div class="shell"><div class="section-heading centered reveal"><span class="kicker">ASÍ PARTICIPÁS</span><h2 id="participateTitle">Tu carroza, tu creatividad, <em>tu momento.</em></h2><p>No queremos una caravana común. Queremos un desfile alegórico lleno de ideas navideñas que hagan sonreír a toda la ciudad.</p></div><div class="steps-grid"><article class="step-card reveal"><span class="step-num">01</span><div class="step-illustration"><img src="assets/ilustraciones/frosty.png" alt="Frosty, muñeco de nieve con sombrero y bufanda" width="686" height="930" loading="lazy"></div><h3>Creá una carroza mágica</h3><p>Decorala con motivos navideños, luces y la identidad de tu emprendimiento. Que tu creatividad sea la protagonista.</p></article><article class="step-card step-accent reveal"><span class="step-num">02</span><div class="step-illustration"><img src="assets/ilustraciones/trineo.png" alt="Trineo rojo navideño cargado de regalos" width="885" height="744" loading="lazy"></div><h3>Sumate con solidaridad</h3><p>Realizá una colaboración mínima de <strong>Q200 en víveres</strong>. Conservá la factura de compra para comprobar la inscripción.</p></article><article class="step-card reveal"><span class="step-num">03</span><div class="step-illustration"><img src="assets/ilustraciones/farol.png" alt="Farol navideño rojo iluminado con moño festivo" width="380" height="978" loading="lazy"></div><h3>Preparáte para desfilar</h3><p>Presentá tu factura en los puntos autorizados y reunite desde las <strong>4:30 p. m.</strong> para ubicar tu carroza.</p></article></div><div class="rules-banner reveal"><div class="rules-symbol"><i class="bi bi-lightbulb" aria-hidden="true"></i></div><div><strong>¡Que brille tu marca coatepecana!</strong><p>La publicidad de tu carroza debe destacar tu propio emprendimiento. Priorizá una decoración alegórica e iluminada, no únicamente vehículos en caravana.</p></div><a href="#inscripcion" class="rules-link">Participar <i class="bi bi-arrow-right" aria-hidden="true"></i></a></div></div></section>
+
+    <section class="contribution section-space" aria-labelledby="contributionTitle"><div class="shell contribution-grid"><div class="contribution-copy reveal"><span class="kicker kicker-on-dark">INSCRIPCIÓN SOLIDARIA</span><h2 id="contributionTitle">Un pequeño gesto. <em>Una Navidad más grande.</em></h2><p>Para participar se solicita una colaboración de víveres por un valor mínimo de <strong>Q200</strong>. Presentá la factura de compra en cualquiera de estos puntos:</p><div class="receipt-locations"><div><span class="location-icon"><i class="bi bi-broadcast" aria-hidden="true"></i></span><span><b>Generación Radio</b><small>5.ª calle, barrio La Batalla, Coatepeque</small></span></div><div><span class="location-icon"><i class="bi bi-building" aria-hidden="true"></i></span><span><b>Administración de Centro Comercial Internacional</b><small>Coatepeque</small></span></div></div><div class="receipt-note"><i class="bi bi-receipt" aria-hidden="true"></i><span>La factura de compra es el comprobante de inscripción.</span></div></div><div class="contribution-illustration reveal"><div class="amount-seal"><small>APORTE MÍNIMO</small><strong>Q200</strong><span>EN VÍVERES</span></div><img src="assets/ilustraciones/arbusto.png" alt="Arbustos navideños cubiertos de nieve y adornados con luces" width="868" height="328" loading="lazy"></div></div></section>
+
+    <section class="inscription section-space" id="inscripcion" aria-labelledby="formTitle"><div class="shell inscription-grid"><div class="form-intro reveal"><span class="kicker">¡TE QUEREMOS EN EL DESFILE!</span><h2 id="formTitle">¿Listo para hacer <em>brillar tu emprendimiento?</em></h2><p>Contanos un poquito de vos y de tu negocio. Prepararemos un mensaje para que coordinés tu participación directamente por WhatsApp.</p><div class="whatsapp-contact"><span class="whatsapp-round"><i class="bi bi-whatsapp" aria-hidden="true"></i></span><div><small>CONTACTO PARA PARTICIPAR</small><strong>4112-6383</strong><span>Atención por WhatsApp</span></div></div><div class="honest-notice"><i class="bi bi-info-circle" aria-hidden="true"></i><span>Completar este formulario <strong>no envía datos a una base de datos</strong>. Se abrirá WhatsApp con tu mensaje. La inscripción se acredita presentando la factura de víveres.</span></div></div><div class="form-card reveal"><div class="form-card-header"><span class="form-form-icon"><i class="bi bi-envelope-paper-heart" aria-hidden="true"></i></span><div><h3>¡Hacé que tu marca sea parte!</h3><p>Completá estos datos para iniciar tu contacto.</p></div></div><form id="registerForm" novalidate><div class="row g-3"><div class="col-12"><label for="businessName" class="form-label">Nombre de tu emprendimiento <span aria-hidden="true">*</span></label><input type="text" class="form-control" id="businessName" name="businessName" placeholder="Ej. Mi marca coatepecana" maxlength="90" autocomplete="organization" required></div><div class="col-md-6"><label for="contactName" class="form-label">Tu nombre <span aria-hidden="true">*</span></label><input type="text" class="form-control" id="contactName" name="contactName" placeholder="Nombre y apellido" maxlength="90" autocomplete="name" required></div><div class="col-md-6"><label for="contactPhone" class="form-label">Tu teléfono <span aria-hidden="true">*</span></label><input type="tel" class="form-control" id="contactPhone" name="contactPhone" inputmode="tel" placeholder="Ej. 5555 5555" maxlength="20" autocomplete="tel" required></div><div class="col-12"><label for="businessType" class="form-label">¿A qué se dedica tu negocio? <span aria-hidden="true">*</span></label><select class="form-select" id="businessType" name="businessType" required><option value="" selected disabled>Seleccioná una opción</option><option value="Comercio y ventas">Comercio y ventas</option><option value="Alimentos y bebidas">Alimentos y bebidas</option><option value="Moda, belleza y bienestar">Moda, belleza y bienestar</option><option value="Servicios profesionales">Servicios profesionales</option><option value="Arte, diseño y entretenimiento">Arte, diseño y entretenimiento</option><option value="Otro emprendimiento">Otro emprendimiento</option></select></div><div class="col-12"><label for="message" class="form-label">¿Querés contarnos algo más? <span class="optional">(opcional)</span></label><textarea class="form-control" id="message" name="message" rows="3" maxlength="400" placeholder="Consultas, tipo de carroza, detalles especiales..."></textarea></div><div class="col-12"><div class="form-check"><input class="form-check-input" type="checkbox" id="confirmation" required><label class="form-check-label" for="confirmation">Entiendo que mi mensaje se enviará mediante WhatsApp y que la factura de víveres es necesaria para acreditar la inscripción.</label></div></div></div><button type="submit" class="btn-submit"><i class="bi bi-whatsapp" aria-hidden="true"></i> Continuar por WhatsApp <i class="bi bi-arrow-up-right" aria-hidden="true"></i></button><p class="form-safe"><i class="bi bi-shield-check" aria-hidden="true"></i> Sin cuentas, sin contraseñas y sin registro automático en el sitio.</p></form></div></div></section>
+
+    <section class="supporters section-space" id="colaboradores" aria-labelledby="supportersTitle"><div class="shell"><div class="section-heading centered reveal"><span class="kicker">JUNTOS HACEMOS LA MAGIA</span><h2 id="supportersTitle">Gracias por ser parte <em>de este sueño.</em></h2><p>Marcas y organizaciones que ayudan a convertir esta celebración en realidad.</p></div><div class="organizers reveal"><div><span class="organizers-label">ORGANIZACIÓN</span><strong>Generación Radio y Mercatecnia</strong></div><div><span class="organizers-label">PUNTO DE LLEGADA</span><strong>Centro Comercial Internacional Coatepeque</strong></div></div><div class="sponsor-toolbar reveal"><h3>Colaboradores</h3><span>Gracias por hacer posible esta fiesta navideña</span></div><div class="sponsors-grid" id="sponsorsGrid" aria-live="polite"></div></div></section>
+
+    <section class="faq section-space" aria-labelledby="faqTitle"><div class="shell faq-grid"><div class="reveal"><span class="kicker">ANTES DE SALIR</span><h2 id="faqTitle">Preguntas <em>frecuentes.</em></h2><p>Estos son los detalles que necesitás saber para disfrutar el desfile al máximo.</p></div><div class="accordion accordion-flush reveal" id="faqAccordion"><div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqOne" aria-expanded="true" aria-controls="faqOne">¿Cómo confirmo mi participación?</button></h3><div id="faqOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion"><div class="accordion-body">Coordiná por WhatsApp al 4112-6383 y presentá la factura de compra de los víveres en los puntos indicados. La factura será tu comprobante de inscripción.</div></div></div><div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqTwo" aria-expanded="false" aria-controls="faqTwo">¿Hay un número asignado a cada carroza?</button></h3><div id="faqTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">No. Las carrozas se ordenarán a partir de las 4:30 p. m. según vayan llegando. La puntualidad es importante para conseguir una buena ubicación.</div></div></div><div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqThree" aria-expanded="false" aria-controls="faqThree">¿Qué tipo de decoración necesita mi carroza?</button></h3><div id="faqThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Debe ser una carroza alegórica, iluminada y decorada con motivos navideños. Podés incluir publicidad de tu emprendimiento; la idea es ofrecer un desfile creativo, no solo una caravana de vehículos.</div></div></div><div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqFour" aria-expanded="false" aria-controls="faqFour">¿Dónde finaliza el desfile?</button></h3><div id="faqFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">En el Centro Comercial Internacional Coatepeque, con un espectáculo de luces pirotécnicas seguido de un show artístico.</div></div></div></div></div></section>
+
+    <section class="final-cta" aria-labelledby="finalTitle"><div class="shell final-cta-grid"><div class="final-cta-copy reveal"><span class="final-kicker">21 DE NOVIEMBRE · COATEPEQUE</span><h2 id="finalTitle">Los sueños se hacen <em>realidad.</em></h2><p>Esta Navidad, hagamos que todo Coatepeque vea lo grande que podemos soñar juntos.</p><a href="#inscripcion" class="btn-festive btn-festive-lg">¡Quiero ser parte! <i class="bi bi-arrow-right" aria-hidden="true"></i></a></div><div class="final-cta-decor reveal"><span class="final-stars" aria-hidden="true">✦　✧　✦</span><img src="assets/ilustraciones/arbol.png" width="610" height="998" loading="lazy" alt="Árbol navideño lleno de regalos y luces"></div></div></section>
+  </main>
+
+  <footer class="footer"><div class="shell footer-row"><div class="footer-brand"><span class="footer-brand-name">EmprendeFest <b>2026</b></span><small>El primer desfile navideño de emprendedores de Coatepeque.</small></div><div class="footer-created"><span>Página creada con cariño por</span><a id="creatiguateCredit" href="https://www.instagram.com/creatiguate/" target="_blank" rel="noopener noreferrer"><img src="assets/logos/creatiguate.png" alt="Logotipo CreatiGuate" id="creatiguateLogo" hidden><strong id="creatiguateText">CREATIGUATE <i class="bi bi-arrow-up-right" aria-hidden="true"></i></strong></a></div></div><div class="shell footer-bottom"><span>© 2026 EmprendeFest · Coatepeque, Guatemala</span><a href="#inicio">Volver arriba <i class="bi bi-arrow-up" aria-hidden="true"></i></a></div></footer>
+  <!-- Música navideña original grabada para el sitio: se intenta reproducir al cargar; se desbloquea en la primera interacción si el navegador lo exige. -->
+  <audio id="christmasMusic" src="assets/audio/navidad-emprendefest.mp3" preload="auto" autoplay loop playsinline aria-label="Música navideña instrumental"></audio>
+  <button class="music-toggle" id="musicToggle" type="button" aria-label="Activar música navideña" aria-pressed="false" title="Activar o pausar música navideña"><i class="bi bi-music-note-beamed" aria-hidden="true"></i><span id="musicButtonText">Activar música</span><span class="music-pulse" aria-hidden="true"></span></button>
+  <a class="floating-whatsapp" href="https://wa.me/50241126383?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20EmprendeFest%202026" target="_blank" rel="noopener noreferrer" aria-label="Consultar EmprendeFest por WhatsApp al 4112-6383"><i class="bi bi-whatsapp" aria-hidden="true"></i><span>¿Dudas? Escribinos</span></a>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous" defer></script>
+</body>
+</html>
